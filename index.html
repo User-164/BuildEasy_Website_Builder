@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BuildEasy - Website Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to BuildEasy - Your Website Builder</h1>
+    </header>
+    <main>
+        <section id="editor">
+            <h2>Website Editor</h2>
+            <div class="editor-tools">
+                <button onclick="addText()">Add Text</button>
+                <button onclick="addImage()">Add Image</button>
+                <button onclick="addSection()">Add Section</button>
+                <button onclick="saveWorkspace()">Save</button>
+            </div>
+            <div id="workspace">
+                <!-- Your website content will be added here dynamically -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 BuildEasy. All rights reserved.</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/interact.js/1.10.11/interact.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
